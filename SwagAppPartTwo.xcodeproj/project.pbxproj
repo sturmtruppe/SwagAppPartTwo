@@ -56,12 +56,9 @@
 		62E4B3A32501738B00F6FB1D /* SwagAppPartTwo */ = {
 			isa = PBXGroup;
 			children = (
-				62E4B3A42501738B00F6FB1D /* AppDelegate.swift */,
-				62E4B3A62501738B00F6FB1D /* SceneDelegate.swift */,
-				62E4B3A82501738B00F6FB1D /* ContentView.swift */,
-				62E4B3AA2501738C00F6FB1D /* Assets.xcassets */,
-				62E4B3AF2501738C00F6FB1D /* LaunchScreen.storyboard */,
-				62E4B3B22501738C00F6FB1D /* Info.plist */,
+				62E4B3B82501749B00F6FB1D /* Resources */,
+				62E4B3B9250174EC00F6FB1D /* Controller */,
+				62E4B3BA250174FC00F6FB1D /* View */,
 				62E4B3AC2501738C00F6FB1D /* Preview Content */,
 			);
 			path = SwagAppPartTwo;
@@ -73,6 +70,33 @@
 				62E4B3AD2501738C00F6FB1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62E4B3B82501749B00F6FB1D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				62E4B3A42501738B00F6FB1D /* AppDelegate.swift */,
+				62E4B3A62501738B00F6FB1D /* SceneDelegate.swift */,
+				62E4B3AA2501738C00F6FB1D /* Assets.xcassets */,
+				62E4B3B22501738C00F6FB1D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		62E4B3B9250174EC00F6FB1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				62E4B3A82501738B00F6FB1D /* ContentView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		62E4B3BA250174FC00F6FB1D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62E4B3AF2501738C00F6FB1D /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +311,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwagAppPartTwo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwagAppPartTwo/Info.plist;
+				INFOPLIST_FILE = SwagAppPartTwo/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwagAppPartTwo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = SwagAppPartTwo/Info.plist;
+				INFOPLIST_FILE = SwagAppPartTwo/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
